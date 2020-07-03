@@ -1,0 +1,226 @@
+div.container {
+    width: 100%;
+    border: 3px ridge;
+}
+ 
+header {
+    display: flex;
+    border-bottom: 3px ridge;
+    height: 20vh;
+    clear: left;
+    text-align: center;
+    background-image: url('../images/logo3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header p {
+    font-style: italic;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 60px;
+    margin-left: -150px;
+}
+
+#my {
+    font-family: sans-serif;
+    font-size: 50px;
+    background: linear-gradient(to bottom, #fff 10%, pink 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#website {
+    font-family: sans-serif;
+    font-size: 50px;
+    background: linear-gradient(to bottom, #fff 10%, green 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer {
+    border: 3px ridge;
+    margin-top: 10px;
+    height: 10vh;
+    color: white;
+    background-color: #0072ffd1;
+    clear: left;
+    text-align: center;
+}
+ 
+footer p {
+    padding-top: 10px;
+}
+
+nav {
+    border: 3px ridge;
+    padding: 10px;
+    height: 75vh;
+    float: left;
+    max-width: 250px;
+    margin: 0;
+    background-color: gray;
+}
+
+nav h3 {
+    margin:  0;
+}
+
+#hr1 {
+    border: 3px ridge;
+    margin-left: -11px;
+    margin-right: -10px;
+}
+
+.form-login {
+}
+
+.form-login button {
+    color: white;
+    cursor: pointer;
+    border: 1px solid orange;
+    border-radius: 5px; 
+    background-color: orange;
+    margin-left: 80px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.form-search button {
+    color: white;
+    cursor: pointer;
+    border: 1px solid orange;
+    border-radius: 5px; 
+    background-color: orange;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.form-search #inputSearch {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 25px;
+    border-radius: 5px;  
+}
+
+.main-menu ul li{
+    margin-left: -20px;
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.main-menu ul li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    list-style: none;
+    text-decoration: none;
+}
+
+.main-menu ul li a:hover{
+    color: orange;
+}
+
+.container-main {
+    width: auto;
+    float: right;
+    height: auto;
+}
+
+.container-header p {
+    color: orange;
+    font-weight: 700;
+    margin-left: 850px;
+}
+
+.list-menu {
+    margin-left: 630px;
+}
+
+.list-menu ul {
+    margin-right: 10px;
+    display: flex;
+}
+
+.list-menu ul li{
+    
+    list-style: none;
+}
+.list-menu ul li a{
+    border-right: 2px solid blue;
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+}
+
+.list-menu ul li #link{
+    border-right: none;
+}
+
+.list-menu ul li:hover a{
+    color:orange;
+}
+
+section {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 780px;
+    height: auto;
+    margin-left: 0;
+}
+
+section h2 {
+    color: orange;
+}
+
+aside {
+    border: 3px ridge;
+    margin-top: -8px;
+    padding: 5px;
+    height: 61vh;
+    float: right;
+    width: 250px;
+    background-color: gray;
+}
+
+aside h1 {
+    margin-top: 0;
+    text-align: center;
+    color: orange;
+}
+
+aside h3 {
+    margin-top: -10px;
+}
+
+aside ol li {
+    padding-bottom: 5px;
+}
+
+aside ol li a {
+    color: black;
+    text-decoration: none;
+}
+
+aside ol li a:hover {
+    color: white;
+
+}
+
+#inputInfo {
+    margin-left: 5px;
+    width: 100px;
+    padding-left: 0px;
+}
+
+#inputInfo1 {
+    margin-left: 8px;
+    width: 100px;
+    padding-left: 0px;
+}
+
+#name-input {
+    color: #fff;
+    font-style: italic;
+}
