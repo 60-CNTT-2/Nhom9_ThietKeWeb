@@ -1,0 +1,257 @@
+.wrapper{
+    margin: 0 auto;
+    width: 960px;
+    height: auto;
+    border: 2px solid black;
+}
+.header img{
+    margin-left: 10px;
+}
+.header a p{
+    margin-left: 10px;
+} 
+.header{
+    background: #ffffff;
+    height: 110px;
+    padding-top: 10px;
+    display: flex;
+}
+
+.logo-web {
+	float: left;
+	width: 600px;
+}
+
+.find-post {
+	float: right;
+	width: 350px;
+}
+
+.button {
+	margin-left: 190px;
+}
+
+.button button {
+	background-color: white;
+  	color: black;
+	border-radius: 5px;
+}
+
+.btn {
+	border: 1px solid gray;
+	padding: 5px;
+}
+
+.button button:hover {
+	transition-duration: 0.3s;
+  	background-color: gray; /* Green */
+  	color: white;
+}
+
+.find-post .list-menu{
+	margin-left: -100px;
+}
+
+.menu-top{
+    background: orange;
+    height: 50px;
+    display: block;
+    border: 2px solid black;
+}
+
+.content-left{
+	padding: 10px;
+    height:750px;
+    width: 580px;
+    float: left;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+.content-left p{
+    border-bottom: 1px solid black;
+}
+
+.content-bottom a {
+	text-decoration: none;
+}
+.content-right{
+	padding: 10px;
+    height: 750px;
+    width: 370px;
+    float: right;
+    box-sizing: border-box;
+}
+.footer{
+   background: orange;
+   border: 1px solid black;
+   border-top: 2px solid black;
+   height: 20vh;
+   width: 958px;
+   clear: left;
+}
+.list-menu ul li{
+    float: left;
+    list-style: none;
+ 	padding-top: 45px;
+}
+.list-menu ul li a{
+    border-right: 1px solid black;
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+}
+.list-menu ul li:hover a{
+    color:pink;
+}
+.menu-top ul{
+    padding: 0px;
+    margin: 0px;
+}
+.menu-top ul li{
+	font-weight: 700;
+    list-style: none;
+    float: left;
+    padding-top: 15px;
+}
+.menu-top ul li a{
+    padding: 15px;
+    border-right: 1px solid black;
+    text-decoration: none;
+}
+.menu-top ul li:hover a{
+    color: red;
+}
+.content-left ul{
+    margin: 0px;
+    padding: 0px;
+}
+.content-left ul li{
+    list-style: none;
+}
+.content-left ul li img{
+	float:left;
+	width: 160px;
+	height: auto;
+	margin-right: 12px;
+	padding-left: 10px;
+}
+.content-left ul li h3{
+ 	font-size: 20px;
+}   
+.text-content p{
+	color: red;
+    font-size: 22px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+}
+.content-left ul li{
+    text-align: justify;
+}
+ .content-right ul{
+    margin: 10px;
+    padding-bottom: 14px;
+
+}
+.content-right ul li{
+    padding-left: 5px;
+}
+.content-right ul li a{
+    text-decoration: none;
+}
+.content-right ul li:hover a{
+    color: chartreuse;
+}
+.post-thumb ul{
+    margin: 0px;
+    padding: 0px;
+}
+.post-thumb ul li {
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.footer-left{
+	width: 400px;
+    padding: 15px;
+    float: left;
+}
+.footer-right{
+    float: right;
+    margin: 12px;
+    
+}
+
+.footer-left span {
+	font-weight: 500;
+}
+.footer-right span a{
+    border-right: 1px solid black;
+    text-decoration: none;
+    padding: 0px 10px 0px 10px;
+}
+.footer span:hover a{
+    color: white;
+}
+.flex-item{
+    background-image: url("../images/sp1.jpg");
+    margin: 5px;
+    padding: 10px;
+    font-size: 19px;
+    color:red;
+    flex-grow: 1;  
+}
+.flex-item1{
+    background-image: url("../images/sp2.jpg");
+    margin: 5px;
+    padding: 10px;
+    font-size: 19px;
+    color:red;
+    flex-grow: 1;   
+}
+.flex-item0{
+    background-image: url("../images/sp3.jpg");
+    margin: 5px;
+    padding: 10px;
+    font-size: 19px;
+    color:red;
+    flex-grow: 1;   
+}
+.flex-item2{
+    background-image: url("../images/sp4.jpg");
+    margin: 5px;
+    padding: 10px;
+    font-size: 19px;
+    color:red;
+    flex-grow: 1;   
+}
+.flex-item3{
+    background-image: url("../images/sp5.jpg");
+    margin: 5px;
+    padding: 10px;
+    font-size: 19px;
+    color:red;
+    flex-grow: 1;   
+}
+.flex-item4{
+    background-image: url("../images/sp6.jpg");
+     margin: 5px;
+    padding: 10px;
+    font-size: 19px;
+    color:red;
+    flex-grow: 1;   
+}
+.flex-grox{
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 550px;
+    height: 70px;
+    flex-wrap: wrap;
+    display: flex;
+    border: 3px solid peru;
+}
+
+.banner img {
+	width: 500px;
+	height: auto;
+}
