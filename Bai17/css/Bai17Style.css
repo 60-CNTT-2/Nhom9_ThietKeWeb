@@ -22,6 +22,11 @@
 	width: 600px;
 }
 
+.logo-web img {
+	width: 70px;
+	height: auto;
+}
+
 .find-post {
 	float: right;
 	width: 350px;
@@ -38,6 +43,7 @@
 }
 
 .btn {
+	cursor: pointer;
 	border: 1px solid gray;
 	padding: 5px;
 }
@@ -61,7 +67,7 @@
 
 .content-left{
 	padding: 10px;
-    height:750px;
+    height:auto;
     width: 580px;
     float: left;
     margin-right: 10px;
@@ -74,9 +80,13 @@
 .content-bottom a {
 	text-decoration: none;
 }
+
+.content-bottom a:hover {
+	color: orange;
+}
 .content-right{
 	padding: 10px;
-    height: 750px;
+    height: auto;
     width: 370px;
     float: right;
     box-sizing: border-box;
@@ -99,6 +109,11 @@
     padding: 0px 10px 0px 10px;
     text-decoration: none;
 }
+
+.list-menu ul li #link{
+	border-right: none;
+}
+
 .list-menu ul li:hover a{
     color:pink;
 }
@@ -153,24 +168,31 @@
 
 }
 .content-right ul li{
+	padding-bottom: 5px;
     padding-left: 5px;
 }
 .content-right ul li a{
     text-decoration: none;
 }
 .content-right ul li:hover a{
-    color: chartreuse;
+    color: orange;
 }
-.post-thumb ul{
+.post-sp ul{
     margin: 0px;
     padding: 0px;
 }
-.post-thumb ul li {
+.post-sp ul li {
     list-style: none;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 10px;
 }
+
+.post-sp img {
+	width: 99%;
+	height: 100px;
+}
+
 .footer-left{
 	width: 400px;
     padding: 15px;
@@ -235,7 +257,7 @@
 }
 .flex-item4{
     background-image: url("../images/sp6.jpg");
-     margin: 5px;
+    margin: 5px;
     padding: 10px;
     font-size: 19px;
     color:red;
@@ -248,7 +270,7 @@
     height: 70px;
     flex-wrap: wrap;
     display: flex;
-    border: 3px solid peru;
+    border: 3px solid green;
 }
 
 .banner img {
