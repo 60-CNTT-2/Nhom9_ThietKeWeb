@@ -224,3 +224,8 @@ aside ol li a:hover {
     color: #fff;
     font-style: italic;
 }
+
+.banchay ol{
+    list-style: none;
+    text-decoration: none;
+}
